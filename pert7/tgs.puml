@@ -1,0 +1,30 @@
+@startuml Menu_Restoran
+start
+
+while (Pilihan != '3') is (Loop Menu Utama)
+    :Tampilkan Menu Utama;
+    :Masukkan Pilihan (1-3);
+    if (Pilihan == '1') then (Makanan)
+        while (Pilihan_Makanan != '3') is (Loop Menu Makanan)
+            :Tampilkan Menu Makanan;
+            :Masukkan Pilihan Makanan (1-3);
+            if (Pilihan_Makanan == '1') then (Pecel Lele)
+                :Pesan Pecel Lele;
+            elseif (Pilihan_Makanan == '2') then (Nasi Goreng)
+                :Pesan Nasi Goreng;
+            else (Kembali)
+                :Kembali ke Menu Utama;
+            endif
+        endwhile (Loop Menu Makanan)
+    elseif (Pilihan == '2') then (Minuman)
+        :Maaf, menu minuman belum tersedia.;
+    elseif (Pilihan == '3') then (Exit)
+        :Keluar dari program;
+    else (Pilihan Tidak Valid)
+        :Pilihan tidak valid. Silakan coba lagi.;
+    endif
+endwhile (Loop Menu Utama)
+
+stop
+
+@enduml
