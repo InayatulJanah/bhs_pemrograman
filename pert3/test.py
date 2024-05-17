@@ -2,7 +2,7 @@
 #value = int(value_str)
 value = 50
 
-if value >= 90:
+if value >= 95:
     grade = "A"
 elif value >= 80:
     grade = "B"

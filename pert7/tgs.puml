@@ -24,7 +24,6 @@ while (Pilihan != '3') is (Loop Menu Utama)
         :Pilihan tidak valid. Silakan coba lagi.;
     endif
 endwhile (Loop Menu Utama)
-
 stop
 
 @enduml
