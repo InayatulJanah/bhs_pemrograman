@@ -1,6 +1,6 @@
 # TEORI 
 Bahasa pemrograman adalah aturan atau kumpulan instruksi yang digunakan oleh programmer untuk memberikan komputer arahan tentang cara melakukan tugas tertentu. Ini adalah sarana untuk berkomunikasi dengan komputer, memungkinkan programmer untuk merancang, mengembangkan, dan mengontrol perilaku program komputer. Dengan menggunakan bahasa pemrograman, programmer dapat membuat perangkat lunak, aplikasi web, permainan, dan banyak lagi
-# JENIS JENIS BAHASA PEMROGRAMAN
+# BAHASA PEMROGRAMAN TERDIRI DARI:
 1. Bahasa Pemrograman Tingkat Tinggi
 Bahasa pemrograman yang lebih mudah dipahami oleh manusia dan lebih independen terhadap arsitektur perangkat keras. Contohnya termasuk Python, Java, dan C++.
 

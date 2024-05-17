@@ -1,6 +1,8 @@
-# Data types in pyton 
+# Data types in pyhton 
 1. Tipe Data Numbers (Numerik) Tipe data numerik adalah jenis data Python yang bersifat angka yang bisa ditambah, dikurangi, dikali maupun dibagi. Beberapa tipe data yang dimiliki data numerik pada Python seperti:
-Integer adalah tipe data numerik yang menampung bilangan bulat Float Hampir sama dengan tipe data integer, hanya saja tipe data float dipergunakan untuk variabel-variabel yang memiliki nilai pecahan / desimal. Complex merepresentasikan nilai imajiner. 
+- Integer adalah tipe data numerik yang menampung bilangan bulat 
+- Float Hampir sama dengan Tipe data integer, hanya saja tipe data float dipergunakan untuk variabel-variabel yang memiliki nilai pecahan / desimal. 
+- Complex merepresentasikan nilai imajiner. 
 
 2. Tipe Data String (Teks) Tipe data string sering juga disebut dengan tipe data teks, tipe data ini digunakan untuk menyimpan sebuah teks. Data yang bertipe string harus diapit oleh tanda kutip, baik tanda kutip satu ('') maupun tanda kutip dua (" ") setelah karakter sama dengan (=).
 

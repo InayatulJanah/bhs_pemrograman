@@ -6,7 +6,7 @@ void pecel_lele() {
     scanf("%d", &qty);
     int total = qty * 15000;  // Harga Pecel Lele per porsi = Rp 15.000
     printf("Total harga Pecel Lele: Rp %d\n", total);
-    printf("Terima kasih, pesanan Anda akan segera diproses.\n");
+    printf("Terima kasih, pesanan segera di proses.\n");
 }
 
 void nasi_goreng() {
