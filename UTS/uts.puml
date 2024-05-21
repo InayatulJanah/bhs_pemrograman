@@ -24,7 +24,7 @@ else (no)
     else (no)
       if (pilihan == 4) then (yes)
         if (angka2 != 0) then (yes)
-          :Menampilkan hasil pembagian;
+          :Menampikan hasil pembagian;
           :Hasil pembagian: (float) angka1 / angka2;
         else (no)
           :Menampilkan pesan error;

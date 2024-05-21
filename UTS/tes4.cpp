@@ -17,7 +17,7 @@ void bagi(int a, int b) {
     if (b != 0) {
         cout << "Hasil pembagian: " << (float)a / b << endl;
     } else {
-        cout << "Pembagian dengan nol tidak dapat dilakukan." << endl;
+        cout << "Pembagian dengan nol tidak bisa dilakukan." << endl;
     }
 }
 

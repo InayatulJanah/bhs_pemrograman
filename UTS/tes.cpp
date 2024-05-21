@@ -8,7 +8,7 @@ int main() { // Fungsi utama yang akan dieksekusi pertama kali
     cout << "Masukkan jumlah baris: "; // Meminta input dari pengguna
     cin >> n; // Membaca input dari pengguna dan menyimpannya ke dalam variabel n
 
-    // Loop pertama untuk mengontrol jumlah baris
+    // Loop pertama untuk mengontrol jumlah baris.
     for (i = 1; i <= n; i++) {
         // Loop kedua untuk mencetak bintang sebanyak nilai i pada baris tersebut
         for (j = 1; j <= i; j++) {

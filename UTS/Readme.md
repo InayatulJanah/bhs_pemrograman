@@ -11,7 +11,7 @@
    - variabel i digunakan sebagai indeks baris 
    perulangan dalam
    - perulangan kedua untuk mencetak karakter "*" dalam satu baris
-   - variabel j sebagai indeks kolom
+   - variabel j sebagai indeks kolom.
 
    penjelasannya:
    int n, i, j; mendeklarasikan variabel n untuk menyimpan jumlah baris yang diminta dari pengguna. variabel i dan j sebagai indeks perulangan.

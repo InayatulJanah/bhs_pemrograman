@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     float angka1, angka2;
     
-    // Meminta pengguna memasukkan dua angka
+    // Meminta pengguna memasukkan angka
     cout << "Masukkan angka pertama: ";
     cin >> angka1;
     
