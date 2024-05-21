@@ -1,0 +1,41 @@
+@startuml
+title Program Aritmatika
+
+start
+
+:Menampilkan menu operasi aritmatika;
+:Meminta input pilihan operasi dari pengguna;
+
+:Masukkan pilihan menu (pilih);
+:Masukkan angka pertama (angka1);
+:Masukkan angka kedua (angka2);
+
+if (pilihan == 1) then (yes)
+  :Menampilkan hasil penjumlahan;
+  :Hasil penjumlahan: angka1 + angka2;
+else (no)
+  if (pilihan == 2) then (yes)
+    :Menampilkan hasil pengurangan;
+    :Hasil pengurangan: angka1 - angka2;
+  else (no)
+    if (pilihan == 3) then (yes)
+      :Menampilkan hasil perkalian;
+      :Hasil perkalian: angka1 * angka2;
+    else (no)
+      if (pilihan == 4) then (yes)
+        if (angka2 != 0) then (yes)
+          :Menampilkan hasil pembagian;
+          :Hasil pembagian: (float) angka1 / angka2;
+        else (no)
+          :Menampilkan pesan error;
+          :Pembagian dengan nol tidak dapat dilakukan;
+        endif
+      else (no)
+        :Menampilkan pesan pilihan tidak valid;
+      endif
+    endif
+  endif
+endif
+
+stop
+@enduml
