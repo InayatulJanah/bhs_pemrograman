@@ -99,4 +99,27 @@ class Pembayaran:
 
     def prosesPembayaran(self):
         # Implementasi logika proses pembayaran
-        pass
+        pass
+
+# Contoh penggunaan kelas-kelas yang telah didefinisikan
+if _name_ == "_main_":
+    # Objek User
+    user1 = User(1, "John Doe", "john@example.com", "Jl. ABC No. 123", "081234567890")
+
+    # Objek Pelanggan
+    pelanggan1 = Pelanggan(2, "Jane Smith", "jane@example.com", "Jl. XYZ No. 456", "089876543210")
+
+    # Objek Admin
+    admin1 = Admin(3, "Admin", "admin@example.com", "Jl. Admin No. 1", "081111111111", "Super Admin")
+
+    # Objek Kurir
+    kurir1 = Kurir(4, "Kurir", "kurir@example.com", "Jl. Kurir No. 5", "082222222222", "Motor", "Jakarta Selatan")
+
+    # Objek Makanan
+    makanan1 = Makanan(1, "Nasi Goreng", 15000, "Nasi goreng dengan telur, ayam, dan sayuran")
+
+    # Objek Pembayaran
+    pembayaran1 = Pembayaran(1, "Transfer Bank", "Menunggu Pembayaran")
+
+    # Objek Pesanan
+    pesanan1 = Pesanan(1, [makanan1], 15000, "Diproses", datetime.now())
