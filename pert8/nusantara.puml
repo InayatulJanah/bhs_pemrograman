@@ -1,0 +1,63 @@
+@startuml
+class User {
+  - userID: int
+  - nama: string
+  - email: string
+  - alamat: string
+  - noTelepon: string
+  + mendaftar()
+  + masuk()
+}
+
+class Pelanggan {
+  - riwayatPesanan: List<Pesanan>
+  + memesanMakanan()
+  + melacakPesanan()
+  + memberikanUmpanBalik()
+}
+
+class Admin {
+  - hakAkses: string
+  + mengelolaMenu()
+  + mengelolaPesanan()
+}
+
+class Kurir {
+  - kendaraan: string
+  - wilayahPengiriman: string
+  + mengelolaPengiriman()
+}
+
+class Pesanan {
+  - pesananID: int
+  - daftarItem: List<Makanan>
+  - totalHarga: double
+  - statusPesanan: string
+  - waktuPesanan: datetime
+  + konfirmasiPesanan()
+  + ubahStatusPesanan()
+}
+
+class Makanan {
+  - makananID: int
+  - namaMakanan: string
+  - harga: double
+  - deskripsi: string
+  + tambahMakanan()
+  + hapusMakanan()
+  + ubahMakanan()
+}
+
+class Pembayaran {
+  - pembayaranID: int
+  - metodePembayaran: string
+  - statusPembayaran: string
+  + prosesPembayaran()
+}
+
+User <|-- Pelanggan
+User <|-- Admin
+User <|-- Kurir
+Pesanan --> Pembayaran
+Pesanan --> Makanan
+@enduml
