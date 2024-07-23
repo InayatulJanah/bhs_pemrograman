@@ -1,0 +1,1 @@
+Python dapat berkomunikasi dengan database menggunakan pustaka seperti sqlite3 untuk database SQLite atau pymysql untuk database MySQL.

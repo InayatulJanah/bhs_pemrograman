@@ -1,0 +1,1 @@
+Penanganan pengecualian (exception handling) dalam pemrograman adalah teknik yang digunakan untuk mengelola kondisi-kondisi yang tidak terduga atau kesalahan yang terjadi selama eksekusi program. Tujuannya adalah untuk menjaga agar program tidak berhenti secara tiba-tiba dan memberikan cara yang terstruktur untuk menangani kesalahan tersebut.

@@ -1,0 +1,2 @@
+Fungsi adalah blok kode yang dapat digunakan kembali untuk menjalankan tugas tertentu. Fungsi dapat menerima input, memprosesnya, dan mengembalikan output.
+Rekursi adalah teknik di mana sebuah fungsi memanggil dirinya sendiri. Rekursi digunakan untuk memecahkan masalah yang dapat dipecah menjadi sub-masalah yang lebih kecil dan serupa.
